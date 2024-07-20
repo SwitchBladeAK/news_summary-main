@@ -21,13 +21,13 @@ To run this application locally, follow these steps:
 Clone this repository to your local machine or download the zip file and extract it to your preferred location.
 
  bash
-git clone https://github.com/Adityaasa10/news_summary.git
+`git clone https://github.com/SwitchBladeAK/news_summary-main.git`
 
 
 Install the required Python libraries by running:
 
  bash
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 
 Create .env file in root directory of your project folder
@@ -42,7 +42,7 @@ Prepare an OPML file (e.g., "news_links.opml") with the RSS feed URLs you want t
 Run the Flask application:
 
  bash
-python summarizer.py
+`python summarizer.py`
 
 
 The application should now be accessible locally in your web browser.
@@ -65,7 +65,7 @@ The project uses the following Python libraries and APIs:
 
 - requests for making HTTP requests to fetch article content.
 
-- cohere for text summarization.
+- AI API for text summarization.
 
 - sqlite3 for database management.
 
